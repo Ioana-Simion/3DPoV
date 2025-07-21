@@ -1,0 +1,11 @@
+wandb/
+__pycache__/
+job_logs/
+checkpoints/
+cotracker/
+all_frames_complete.json
+jobs/
+zip_mapping.json
+3dpov/
+3dpov_final/
+__pycache__/
