@@ -1,6 +1,6 @@
 # 3DPoV: Improving 3D understanding via Patch Ordering on Video
 
-[Ioana Simion](https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=Su8iPecAAAAJ), [Mohammadreza Salehi](https://scholar.google.com/citations?user=kpT3gcsAAAAJ&hl=en), [Yuki M. Asano](https://yukimasano.github.io/) [Shashanka Venkataramanan](https://scholar.google.co.in/citations?user=CbfH47IAAAAJ&hl=en), [Cees G. M. Snoek](https://www.ceessnoek.info/)
+[Ioana Simion](https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=Su8iPecAAAAJ), [Mohammadreza Salehi](https://scholar.google.com/citations?user=kpT3gcsAAAAJ&hl=en), [Yuki M. Asano](https://yukimasano.github.io/), [Shashanka Venkataramanan](https://scholar.google.co.in/citations?user=CbfH47IAAAAJ&hl=en), [Cees G. M. Snoek](https://www.ceessnoek.info/)
 
 
 ## Introduction
@@ -61,6 +61,8 @@ The training script uses the following key parameters:
 The script is configured to use 4 GPUs by default. For single GPU training, modify the `CUDA_VISIBLE_DEVICES` and `--nproc_per_node` parameters accordingly.
 
 ## Evaluation
+
+Following the [Probe3D](https://github.com/mbanani/probe3d) benchmark we report Keypoint Matching results as well as depth and surface normal estimation performance. In the following sections we showcase a few qualitative results.
 
 ### Surface Normal estimation on NaVi
 
